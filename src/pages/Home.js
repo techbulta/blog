@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { getArticles } from '../utils/articles';
 import coverImage from '../assets/cover_image.jpg';
 import './Home.css';
 
 function Home() {
   const [articles, setArticles] = useState([]);
+  const [filteredArticles, setFilteredArticles] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [searchParams] = useSearchParams();
+  const categoryFilter = searchParams.get('category');
 
   useEffect(() => {
     async function loadArticles() {
@@ -18,6 +21,19 @@ function Home() {
     }
     loadArticles();
   }, []);
+
+  useEffect(() => {
+    if (categoryFilter) {
+      // Filter articles by category
+      const filtered = articles.filter(article =>
+        article.categories &&
+        article.categories.some(cat => cat.toLowerCase() === categoryFilter.toLowerCase())
+      );
+      setFilteredArticles(filtered);
+    } else {
+      setFilteredArticles(articles);
+    }
+  }, [articles, categoryFilter]);
 
   if (loading) {
     return (
@@ -37,9 +53,18 @@ function Home() {
       </div>
 
       <div className="articles-container">
-        <h2>Latest Articles</h2>
-        <div className="articles-grid">
-          {articles.map(article => (
+        <h2>
+          {categoryFilter
+            ? `${categoryFilter.charAt(0).toUpperCase() + categoryFilter.slice(1)} Articles`
+            : 'Latest Articles'}
+        </h2>
+        {filteredArticles.length === 0 ? (
+          <div className="no-articles">
+            <p>No articles found in this category.</p>
+          </div>
+        ) : (
+          <div className="articles-grid">
+            {filteredArticles.map(article => (
             <article key={article.id} className="article-card">
               <div className="article-header">
                 <h3>{article.title}</h3>
@@ -48,13 +73,27 @@ function Home() {
                   <span className="date">{new Date(article.date).toLocaleDateString()}</span>
                 </div>
               </div>
+              {article.categories && article.categories.length > 0 && (
+                <div className="categories">
+                  {article.categories.map(category => (
+                    <Link
+                      key={category}
+                      to={`/?category=${category.toLowerCase()}`}
+                      className="category-badge"
+                    >
+                      {category}
+                    </Link>
+                  ))}
+                </div>
+              )}
               <p className="excerpt">{article.excerpt}</p>
               <Link to={`/article/${article.id}`} className="read-more">
                 Read More →
               </Link>
             </article>
           ))}
-        </div>
+          </div>
+        )}
       </div>
     </div>
   );

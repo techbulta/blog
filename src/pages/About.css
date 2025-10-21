@@ -257,6 +257,102 @@
   margin-bottom: 0;
 }
 
+.contact-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 32px;
+}
+
+@media (min-width: 1600px) {
+  .contact-details {
+    gap: 48px;
+    margin-top: 40px;
+  }
+}
+
+.contact-item h3 {
+  font-size: 1.35rem;
+  color: #2d3748;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+@media (min-width: 1600px) {
+  .contact-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+}
+
+.contact-item p {
+  margin-bottom: 8px;
+}
+
+.contact-item a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.contact-item a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 1600px) {
+  .social-links {
+    gap: 20px;
+  }
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 20px;
+  background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  color: #2d3748;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+  font-size: 1.125rem;
+}
+
+@media (min-width: 1600px) {
+  .social-link {
+    padding: 14px 24px;
+    font-size: 1.25rem;
+  }
+}
+
+.social-link:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1600px) {
+  .social-icon {
+    font-size: 1.75rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .about-page {
     padding: 30px;
@@ -305,6 +401,16 @@
   .contact-info p {
     font-size: 1rem;
   }
+
+  .contact-details {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .social-link {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -347,5 +453,23 @@
 
   .contact-info p {
     font-size: 0.95rem;
+  }
+
+  .contact-details {
+    gap: 24px;
+  }
+
+  .contact-item h3 {
+    font-size: 1.125rem;
+  }
+
+  .social-link {
+    font-size: 0.95rem;
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .social-icon {
+    font-size: 1.25rem;
   }
 }

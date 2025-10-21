@@ -82,6 +82,19 @@ function Article() {
               day: 'numeric'
             })}</span>
           </div>
+          {article.categories && article.categories.length > 0 && (
+            <div className="categories">
+              {article.categories.map(category => (
+                <Link
+                  key={category}
+                  to={`/?category=${category.toLowerCase()}`}
+                  className="category-badge"
+                >
+                  {category}
+                </Link>
+              ))}
+            </div>
+          )}
         </header>
 
         <div className="article-body markdown-content">

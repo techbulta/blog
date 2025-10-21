@@ -14,8 +14,6 @@ function About() {
 
         {/* English Version */}
         <section className="language-section">
-          <div className="language-badge">English Version</div>
-
           <div className="about-section">
             <h2>About Me</h2>
             <p>
@@ -74,8 +72,6 @@ function About() {
 
         {/* Sinhala Version */}
         <section className="language-section sinhala-section">
-          <div className="language-badge">සිංහල / Sinhala Version</div>
-
           <div className="about-section">
             <h2>මා ගැන</h2>
             <p>
@@ -126,6 +122,42 @@ function About() {
               කවුරු හරි දැනුමක් ගන්න ආවොත් කියවලා යන්න පුළුවන්. එහෙම නැත්තං මේක කෙනෙක් කියවනවද, සියයක් කියවනවද කියලා
               මං care කරන්නේ නෑ. මේක හැදුවේ දැනුම share කරන්නයි, එච්චරයි.
             </p>
+          </div>
+        </section>
+
+        <div className="section-divider"></div>
+
+        {/* Contact Section */}
+        <section className="language-section contact-section">
+          <div className="about-section">
+            <h2>Get in Touch </h2>
+            <p>Feel free to reach out via email or connect with me on social media.</p>
+            <p>ඔබට email එකෙන් හෝ social media හරහා මා සම්බන්ධ කර ගත හැකියි.</p>
+
+            <div className="contact-details">
+              <div className="contact-item">
+                <h3>Email</h3>
+                <p>
+                  <a href="mailto:techbulta@gmail.com">techbulta@gmail.com</a><br/>
+                  <a href="mailto:connect.sandaruvanw@gmail.com">connect.sandaruvanw@gmail.com</a>
+                </p>
+              </div>
+
+              <div className="contact-item">
+                <h3>Social Media</h3>
+                <div className="social-links">
+                  <a href="https://www.facebook.com/profile.php?id=100068528005352" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <span className="social-icon">📘</span> Facebook
+                  </a>
+                  <a href="https://www.youtube.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <span className="social-icon">▶️</span> YouTube
+                  </a>
+                  <a href="https://www.tiktok.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
+                    <span className="social-icon">🎵</span> TikTok
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </div>

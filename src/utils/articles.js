@@ -33,3 +33,19 @@ export async function getArticleById(id) {
   const articles = await getArticles();
   return articles.find(article => article.id === parseInt(id));
 }
+
+// Fetch the list of categories
+export async function getCategories() {
+  try {
+    const response = await fetch(`${process.env.PUBLIC_URL}/categories.json`);
+    if (!response.ok) {
+      throw new Error('Failed to fetch categories');
+    }
+    const categories = await response.json();
+    // Sort by order field
+    return categories.sort((a, b) => a.order - b.order);
+  } catch (error) {
+    console.error('Error loading categories:', error);
+    return [];
+  }
+}

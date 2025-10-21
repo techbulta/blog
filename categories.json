@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Basic",
+    "displayName": "Basic",
+    "description": "Beginner-friendly topics and fundamental concepts",
+    "order": 1
+  },
+  {
+    "name": "Guide",
+    "displayName": "Guide",
+    "description": "Step-by-step tutorials and guides",
+    "order": 2
+  },
+  {
+    "name": "Software Engineering",
+    "displayName": "Software Engineering",
+    "description": "Software development practices and engineering principles",
+    "order": 3
+  },
+  {
+    "name": "DevOps",
+    "displayName": "DevOps",
+    "description": "DevOps practices, CI/CD, Docker, Kubernetes, and automation",
+    "order": 4
+  },
+  {
+    "name": "AI",
+    "displayName": "AI",
+    "description": "Artificial Intelligence, Machine Learning, and trending AI topics",
+    "order": 5
+  }
+]

@@ -26,7 +26,7 @@ Whether one person reads this or a hundred, my goal remains the same: to create 
 
 ### මා ගැන
 
-හායි, මම බුල්ට. දැන් මම ශ්‍රී ලංකාවේ ප්‍රසිද්ධ software company එකක technical team lead කෙනෙක් විදියට වැඩ කරනවා. මගේ career එක ආරම්භ වුණේ 2016 දී කිසිම paper qualification එකක් නැතිව. වැඩ කරද්දී මම SLIATE එකේ HND IT එක complete කළා, ඊට පස්සේ 2019 දී මොරටුව university එකෙන් bachelor degree එක second upper class එකක් ගත්තා.
+හායි, මම බුල්ට. දැන් මම ශ්‍රී ලංකාවේ ප්‍රසිද්ධ software company එකක technical team lead කෙනෙක් විදියට වැඩ කරනවා. මගේ career එක ආරම්භ වුණේ 2016 දී කිසිම paper qualification එකක් නැතිව. වැඩ කරද්දී මම SLIATE එකේ HNDIT එක complete කළා, ඊට පස්සේ 2019 දී මොරටුව university එකෙන් bachelor degree එක second upper class එකක් ගත්තා.
 
 පසුගිය අවුරුදු ටිකේ මම industry එකේ හොඳ දැනුමක් ලබා ගත්තා කියලා විශ්වාස කරනවා. ඒ දැනුම share කරන්න තමයි මේ blog site එක හදාගත්තේ.
 

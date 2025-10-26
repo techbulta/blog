@@ -7,7 +7,7 @@
       // GitHub Pages 404 redirect workaround
       // This script takes the current url and converts the path and query
       // string into a hash that can be read by the SPA router
-      var pathSegmentsToKeep = 1; // For /blog/ subdirectory, keep 1 segment
+      var pathSegmentsToKeep = 0; // For root domain deployment (bulta.lk), keep 0 segments
 
       var l = window.location;
       l.replace(

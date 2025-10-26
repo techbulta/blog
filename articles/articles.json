@@ -1,5 +1,15 @@
 [
   {
+    "id": 4,
+    "slug": "git-branching-strategies",
+    "title": "Git Branching Strategies: Finding Your Team's Perfect Workflow",
+    "author": "Bulta",
+    "date": "2025-10-26",
+    "timestamp": "2025-10-26T10:00:00Z",
+    "categories": ["Basic", "Guide"],
+    "excerpt": "Ever feel like your team's Git setup is just chaos? Learn about five popular branching strategies - Feature Branching, GitHub Flow, GitLab Flow, Git Flow, and Trunk-Based Development - and find the perfect workflow for your team."
+  },
+  {
     "id": 3,
     "slug": "what-is-a-framework",
     "title": "Framework එකක් කියන්නේ මොකක්ද?",

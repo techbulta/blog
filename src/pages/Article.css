@@ -212,13 +212,17 @@
 
 /* Inline code styling */
 .markdown-content p code,
-.markdown-content li code {
-  background: #f7fafc;
-  padding: 2px 6px;
+.markdown-content li code,
+.markdown-content h2 code,
+.markdown-content h3 code,
+.markdown-content td code,
+.markdown-content th code {
+  background: #2d3748;
+  color: #e2e8f0;
+  padding: 3px 8px;
   border-radius: 4px;
   font-size: 0.9em;
-  color: #d63384;
-  border: 1px solid #e2e8f0;
+  font-weight: 500;
 }
 
 /* Lists */

@@ -10,6 +10,7 @@ import { site } from '../config/site';
 import ArticleCard from '../components/ArticleCard';
 import BranchGraph from '../components/BranchGraph';
 import CodeBlock from '../components/CodeBlock';
+import Seo from '../components/Seo';
 import { LinkIcon, LinkedInIcon, ShareIcon, CheckIcon, InfoIcon } from '../components/icons';
 import './Article.css';
 
@@ -110,6 +111,14 @@ function Article() {
 
   return (
     <div className="article-page">
+      <Seo
+        title={article.title}
+        description={article.excerpt}
+        path={`/article/${article.id}`}
+        image={article.cover}
+        type="article"
+        publishedTime={article.timestamp || article.date}
+      />
       <section className="article-header container">
         <div className="article-header-inner">
           <nav aria-label="Breadcrumb" className="breadcrumb">

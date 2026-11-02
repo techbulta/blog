@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Seo from '../components/Seo';
 import './About.css';
 
 function About() {
   return (
     <div className="about-page">
+      <Seo title="About" description="Who writes Bulta and what the blog covers." path="/about" />
       <Link to="/" className="back-link">← Back to Home</Link>
 
       <div className="about-content">

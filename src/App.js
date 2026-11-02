@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import NewsletterBanner from './components/NewsletterBanner';
@@ -40,9 +41,11 @@ function Layout() {
 
 function App() {
   return (
-    <Router>
-      <Layout />
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <Layout />
+      </Router>
+    </HelmetProvider>
   );
 }
 

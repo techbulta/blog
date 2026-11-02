@@ -1,0 +1,58 @@
+.code-block {
+  border-radius: var(--radius-panel);
+  background: var(--color-ink);
+  margin: 0 0 24px;
+  overflow: hidden;
+}
+
+.code-block-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid var(--color-text);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-on-dark-muted);
+}
+
+.code-copy {
+  position: relative;
+  height: 32px;
+  padding: 0 10px;
+  border-radius: var(--radius-xs);
+  border: 1px solid var(--color-on-dark-border);
+  background: transparent;
+  color: var(--color-on-dark);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+/* Grow the hit area to 44px without changing the 32px look. */
+.code-copy::after {
+  content: '';
+  position: absolute;
+  inset: -6px 0;
+}
+
+.code-copy:hover {
+  border-color: var(--color-on-dark-muted);
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 20px;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 15px;
+  line-height: 1.7;
+  background: transparent !important;
+}
+
+.code-block pre code {
+  font-family: inherit;
+  background: none;
+  padding: 0;
+  color: inherit;
+}

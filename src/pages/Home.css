@@ -152,6 +152,7 @@
 }
 
 .chip {
+  position: relative;
   height: 40px;
   padding: 0 16px;
   border-radius: var(--radius-pill);
@@ -162,6 +163,13 @@
   font-size: 14px;
   font-weight: 500;
   text-decoration: none;
+}
+
+/* Grow the hit area to 44px without changing the 40px look. */
+.chip::after {
+  content: '';
+  position: absolute;
+  inset: -2px 0;
 }
 
 .chip:hover {

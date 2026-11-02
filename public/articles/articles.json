@@ -11,7 +11,8 @@
       "Basic"
     ],
     "excerpt": "Ever feel like your team's Git setup is just chaos? Learn about five popular branching strategies - Feature Branching, GitHub Flow, GitLab Flow, Git Flow, and Trunk-Based Development - and find the perfect workflow for your team.",
-    "glyph": "git branch"
+    "glyph": "git branch",
+    "coverDiagram": "branches"
   },
   {
     "id": 3,

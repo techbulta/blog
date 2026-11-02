@@ -18,7 +18,7 @@ I cover topics including:
 - **AI** (trending topics and tools)
 - **Best practices and general knowledge**
 
-Whether one person reads this or a hundred, my goal remains the same: to create a resource for anyone eager to learn. If you're here to grow your knowledge, welcome—you're in the right place.
+Whether one person reads this or a hundred, my goal remains the same: to create a resource for anyone eager to learn. If you're here to grow your knowledge, welcome. You're in the right place.
 
 ---
 

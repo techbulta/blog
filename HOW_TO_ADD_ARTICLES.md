@@ -52,12 +52,16 @@ Open `public/articles/articles.json` and add a new entry for your article:
 
 ```json
 {
-  "id": 6,
+  "id": 9,
   "slug": "my-new-article",
   "title": "Your Article Title",
-  "author": "Your Name",
-  "date": "2025-10-19",
-  "excerpt": "A brief summary of your article that will appear on the home page."
+  "author": "Bulta",
+  "date": "2026-11-02",
+  "timestamp": "2026-11-02T10:00:00Z",
+  "categories": ["AI", "Guide"],
+  "lang": "en",
+  "excerpt": "A brief summary of your article that will appear on the home page.",
+  "glyph": "> text"
 }
 ```
 
@@ -65,6 +69,17 @@ Open `public/articles/articles.json` and add a new entry for your article:
 - The `id` must be unique and incrementing
 - The `slug` must match your markdown filename (without the `.md` extension)
 - The `date` should be in YYYY-MM-DD format
+- `lang` is `"en"` for English or `"si"` for Sinhala; search engines and share previews use it
+- `glyph` is the short text shown on the article card when there is no cover image
+
+Optional fields:
+- `"video"`: a YouTube link or video ID; shows a "Watch the video" card at the end
+- `"videoTitle"`: the title on that card
+- `"cover"`: an image path, used for the card, the article cover and share previews
+- `"updated"`: the date you last changed the article, for search engines
+
+`npm run build` creates a static page for every article in this file, so new
+articles get their own search and share tags automatically.
 
 ### 3. Test Your Article
 

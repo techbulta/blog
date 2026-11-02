@@ -1,0 +1,27 @@
+.branch-graph {
+  display: block;
+  width: 100%;
+  height: auto;
+  stroke-width: 4;
+}
+
+.branch-graph--small {
+  stroke-width: 3;
+}
+
+.branch-graph path {
+  fill: none;
+}
+
+.branch-graph circle {
+  fill: var(--color-ink);
+}
+
+.bg-main { stroke: var(--color-mint); }
+.bg-feature { stroke: var(--color-accent); }
+.bg-experiment { stroke: var(--color-on-dark-subtle); }
+
+.branch-graph circle.bg-filled {
+  fill: var(--color-mint);
+  stroke: none;
+}

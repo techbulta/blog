@@ -1,4 +1,4 @@
-// Fetch the list of all articles
+// Fetch the list of all articles, newest first
 export async function getArticles() {
   try {
     const response = await fetch(`${process.env.PUBLIC_URL}/articles/articles.json`);
@@ -6,14 +6,14 @@ export async function getArticles() {
       throw new Error('Failed to fetch articles');
     }
     const articles = await response.json();
-    return articles;
+    return articles.sort((a, b) => new Date(b.date) - new Date(a.date));
   } catch (error) {
     console.error('Error loading articles:', error);
     return [];
   }
 }
 
-// Fetch a single article's markdown content
+// Fetch a single article's markdown content, without its frontmatter
 export async function getArticleContent(slug) {
   try {
     const response = await fetch(`${process.env.PUBLIC_URL}/articles/${slug}.md`);
@@ -21,7 +21,7 @@ export async function getArticleContent(slug) {
       throw new Error(`Failed to fetch article: ${slug}`);
     }
     const markdown = await response.text();
-    return markdown;
+    return markdown.replace(/^---[\s\S]*?---\r?\n/, '');
   } catch (error) {
     console.error(`Error loading article ${slug}:`, error);
     return null;
@@ -32,6 +32,11 @@ export async function getArticleContent(slug) {
 export async function getArticleById(id) {
   const articles = await getArticles();
   return articles.find(article => article.id === parseInt(id));
+}
+
+// The hero article: the one flagged `featured`, otherwise the newest.
+export function getFeaturedArticle(articles) {
+  return articles.find(article => article.featured) || articles[0];
 }
 
 // Fetch the list of categories

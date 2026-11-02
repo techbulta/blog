@@ -1,5 +1,33 @@
 [
   {
+    "id": 8,
+    "slug": "dont-let-ai-bankrupt-your-startup-overnight",
+    "title": "Don't Let AI Bankrupt Your Startup Overnight",
+    "author": "Bulta",
+    "date": "2026-08-19",
+    "timestamp": "2026-08-19T10:00:00Z",
+    "categories": [
+      "AI",
+      "DevOps"
+    ],
+    "excerpt": "A true story: AI-generated code looped a single-item API thousands of times instead of using the bulk endpoint, and one QA run pushed the cloud bill past $500 in hours. Know what's running under the hood.",
+    "glyph": "$500/day"
+  },
+  {
+    "id": 7,
+    "slug": "building-a-virtual-dev-team-with-claude-code-subagents",
+    "title": "Building a Virtual Dev Team With Claude Code Subagents",
+    "author": "Bulta",
+    "date": "2026-08-05",
+    "timestamp": "2026-08-05T10:00:00Z",
+    "categories": [
+      "AI",
+      "Guide"
+    ],
+    "excerpt": "Real teams have specialists: backend, frontend, PM. Claude Code subagents let you build the same setup, hand tasks to each agent, and run them in parallel. Here's how it works, and what's really happening behind it.",
+    "glyph": "@agents"
+  },
+  {
     "id": 6,
     "slug": "why-some-developers-get-better-results-from-claude-code",
     "title": "Why Some Developers Get Better Results From Claude Code Than Others",

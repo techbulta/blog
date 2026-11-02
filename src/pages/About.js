@@ -128,7 +128,7 @@ function About() {
         <div className="section-divider"></div>
 
         {/* Contact Section */}
-        <section className="language-section contact-section">
+        <section id="contact" className="language-section contact-section">
           <div className="about-section">
             <h2>Get in Touch </h2>
             <p>Feel free to reach out via email or connect with me on social media.</p>

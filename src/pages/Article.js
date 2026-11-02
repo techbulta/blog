@@ -11,7 +11,7 @@ import ArticleCard from '../components/ArticleCard';
 import BranchGraph from '../components/BranchGraph';
 import CodeBlock from '../components/CodeBlock';
 import VideoCard from '../components/VideoCard';
-import Seo from '../components/Seo';
+import Seo, { articleStructuredData } from '../components/Seo';
 import { LinkIcon, LinkedInIcon, ShareIcon, CheckIcon, InfoIcon } from '../components/icons';
 import './Article.css';
 
@@ -100,6 +100,7 @@ function Article() {
   if (error || !article) {
     return (
       <div className="article-status container">
+        <Seo title="Article not found" noindex />
         <h1 className="article-title">Article not found</h1>
         <p className="article-lead">Sorry, the article you're looking for doesn't exist.</p>
         <Link to="/" className="button button--primary">Back to all articles</Link>
@@ -119,6 +120,9 @@ function Article() {
         image={article.cover}
         type="article"
         publishedTime={article.timestamp || article.date}
+        tags={article.categories}
+        lang={article.lang}
+        structuredData={articleStructuredData(article)}
       />
       <section className="article-header container">
         <div className="article-header-inner">

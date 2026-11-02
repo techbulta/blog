@@ -1,5 +1,5 @@
 .navbar {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--color-primary);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   position: sticky;
   top: 0;
@@ -103,7 +103,7 @@
   display: block;
   width: 100%;
   padding: 10px 20px;
-  color: #2d3748;
+  color: var(--color-ink);
   text-decoration: none;
   background: none;
   border: none;
@@ -115,8 +115,8 @@
 }
 
 .dropdown-item:hover {
-  background-color: #f7fafc;
-  color: #667eea;
+  background-color: var(--color-surface);
+  color: var(--color-primary);
 }
 
 @media (max-width: 768px) {

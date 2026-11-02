@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh;
-  background-color: #f7fafc;
+  background-color: var(--color-bg);
 }
 
 .main-content {

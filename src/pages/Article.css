@@ -20,12 +20,12 @@
   text-align: center;
   padding: 60px 20px;
   font-size: 1.25rem;
-  color: #718096;
+  color: var(--color-muted);
 }
 
 .back-link {
   display: inline-block;
-  color: #667eea;
+  color: var(--color-primary);
   text-decoration: none;
   font-weight: 600;
   margin-bottom: 30px;
@@ -33,7 +33,7 @@
 }
 
 .back-link:hover {
-  color: #764ba2;
+  color: var(--color-primary-hover);
 }
 
 .not-found {
@@ -43,13 +43,13 @@
 
 .not-found h1 {
   font-size: 2.5rem;
-  color: #2d3748;
+  color: var(--color-ink);
   margin-bottom: 16px;
 }
 
 .not-found p {
   font-size: 1.125rem;
-  color: #718096;
+  color: var(--color-muted);
   margin-bottom: 24px;
 }
 
@@ -67,14 +67,14 @@
 }
 
 .article-header {
-  border-bottom: 2px solid #e2e8f0;
+  border-bottom: 2px solid var(--color-border);
   padding-bottom: 24px;
   margin-bottom: 32px;
 }
 
 .article-header h1 {
   font-size: 3rem;
-  color: #2d3748;
+  color: var(--color-ink);
   margin-bottom: 16px;
   line-height: 1.2;
 }
@@ -88,7 +88,7 @@
 .article-meta {
   display: flex;
   gap: 24px;
-  color: #718096;
+  color: var(--color-muted);
   font-size: 1rem;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .article-header .category-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--color-primary);
   color: white;
   padding: 6px 16px;
   border-radius: 12px;
@@ -139,12 +139,12 @@
 
 .article-body {
   line-height: 1.8;
-  color: #2d3748;
+  color: var(--color-ink);
 }
 
 .article-body h2 {
   font-size: 2rem;
-  color: #2d3748;
+  color: var(--color-ink);
   margin-top: 48px;
   margin-bottom: 20px;
   font-weight: 600;
@@ -160,7 +160,7 @@
 
 .article-body h3 {
   font-size: 1.5rem;
-  color: #2d3748;
+  color: var(--color-ink);
   margin-top: 36px;
   margin-bottom: 16px;
   font-weight: 600;
@@ -187,13 +187,13 @@
 }
 
 .article-body pre {
-  background: #2d3748;
-  color: #e2e8f0;
+  background: var(--color-ink);
+  color: var(--color-border);
   padding: 24px;
   border-radius: 8px;
   overflow-x: auto;
   margin: 28px 0;
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -207,7 +207,7 @@
 }
 
 .article-body code {
-  font-family: 'Courier New', monospace;
+  font-family: var(--font-mono);
 }
 
 /* Inline code styling */
@@ -217,8 +217,8 @@
 .markdown-content h3 code,
 .markdown-content td code,
 .markdown-content th code {
-  background: #2d3748;
-  color: #e2e8f0;
+  background: var(--color-ink);
+  color: var(--color-border);
   padding: 3px 8px;
   border-radius: 4px;
   font-size: 0.9em;
@@ -253,17 +253,17 @@
 
 /* Blockquotes */
 .markdown-content blockquote {
-  border-left: 4px solid #667eea;
+  border-left: 4px solid var(--color-primary);
   padding-left: 24px;
   margin: 28px 0;
-  color: #4a5568;
+  color: var(--color-text);
   font-style: italic;
   font-size: 1.125rem;
 }
 
 @media (min-width: 1600px) {
   .markdown-content blockquote {
-    border-left: 6px solid #667eea;
+    border-left: 6px solid var(--color-primary);
     padding-left: 32px;
     margin: 32px 0;
     font-size: 1.25rem;
@@ -272,14 +272,14 @@
 
 /* Links */
 .markdown-content a {
-  color: #667eea;
+  color: var(--color-primary);
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-bottom-color 0.2s;
 }
 
 .markdown-content a:hover {
-  border-bottom-color: #667eea;
+  border-bottom-color: var(--color-primary);
 }
 
 /* Tables */
@@ -291,39 +291,39 @@
 
 .markdown-content th,
 .markdown-content td {
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--color-border);
   padding: 12px;
   text-align: left;
 }
 
 .markdown-content th {
-  background: #f7fafc;
+  background: var(--color-surface);
   font-weight: 600;
 }
 
 /* Horizontal rule */
 .markdown-content hr {
   border: none;
-  border-top: 2px solid #e2e8f0;
+  border-top: 2px solid var(--color-border);
   margin: 40px 0;
 }
 
 .article-footer {
   margin-top: 40px;
   padding-top: 20px;
-  border-top: 1px solid #e2e8f0;
+  border-top: 1px solid var(--color-border);
 }
 
 .back-link-bottom {
   display: inline-block;
-  color: #667eea;
+  color: var(--color-primary);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.2s;
 }
 
 .back-link-bottom:hover {
-  color: #764ba2;
+  color: var(--color-primary-hover);
 }
 
 @media (max-width: 1024px) {

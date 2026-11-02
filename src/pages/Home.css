@@ -8,7 +8,7 @@
   text-align: center;
   padding: 60px 20px;
   font-size: 1.25rem;
-  color: #718096;
+  color: var(--color-muted);
 }
 
 .hero {
@@ -47,7 +47,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.85) 0%, rgba(118, 75, 162, 0.85) 100%);
+  background: var(--color-ink);
+  opacity: 0.85;
   z-index: 2;
 }
 
@@ -73,7 +74,7 @@
 .articles-container h2 {
   font-size: 2rem;
   margin-bottom: 30px;
-  color: #333;
+  color: var(--color-ink);
 }
 
 .articles-grid {
@@ -101,7 +102,7 @@
 .article-header h3 {
   font-size: 1.5rem;
   margin-bottom: 12px;
-  color: #2d3748;
+  color: var(--color-ink);
 }
 
 .article-meta {
@@ -109,7 +110,7 @@
   gap: 16px;
   margin-bottom: 16px;
   font-size: 0.875rem;
-  color: #718096;
+  color: var(--color-muted);
 }
 
 .author::before {
@@ -128,7 +129,7 @@
 }
 
 .category-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: var(--color-primary);
   color: white;
   padding: 4px 12px;
   border-radius: 12px;
@@ -144,14 +145,14 @@
 }
 
 .excerpt {
-  color: #4a5568;
+  color: var(--color-text);
   line-height: 1.6;
   margin-bottom: 20px;
   flex-grow: 1;
 }
 
 .read-more {
-  color: #667eea;
+  color: var(--color-primary);
   text-decoration: none;
   font-weight: 600;
   display: inline-flex;
@@ -160,7 +161,7 @@
 }
 
 .read-more:hover {
-  color: #764ba2;
+  color: var(--color-primary-hover);
 }
 
 .no-articles {
@@ -173,7 +174,7 @@
 
 .no-articles p {
   font-size: 1.125rem;
-  color: #718096;
+  color: var(--color-muted);
   margin: 0;
 }
 

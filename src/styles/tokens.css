@@ -1,0 +1,54 @@
+/* Design tokens from docs/redesign/REDESIGN.md, section 1.
+   Use these variables everywhere instead of hard-coded values. */
+:root {
+  /* Color */
+  --color-ink: #0F1C18;          /* dark surfaces, headings, primary text */
+  --color-text: #24332E;         /* article body text */
+  --color-muted: #5B6B66;        /* secondary text, meta, inactive nav */
+  --color-primary: #0B7A55;      /* links, primary buttons, eyebrows */
+  --color-primary-hover: #075C40;
+  --color-primary-soft: #E8F3EE; /* tag and badge backgrounds */
+  --color-accent: #F2A93B;       /* use sparingly: Featured badge, Subscribe button on dark */
+  --color-bg: #FFFFFF;
+  --color-surface: #F4F7F5;      /* chips, alternate section bands, inline code */
+  --color-border: #E3E9E6;
+  --color-border-strong: #CFDAD5;
+  --color-on-dark: #E6EEEA;
+  --color-on-dark-muted: #A7B5B0;
+  --color-on-dark-border: #3A4A45;
+  --color-mint: #7FE0B4;         /* main-branch line, avatar initial on dark */
+  --color-tip-bg: #FFF6E8;
+  --color-tip-icon: #9A5B00;
+
+  /* Values used in the reference files but not named in the spec */
+  --color-on-dark-subtle: #8FA39C; /* terminal prompt, code comments, dashed branch */
+  --color-input-on-dark: #17271F;  /* email input on the newsletter banner */
+
+  /* Type */
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Radius */
+  --radius-sm: 6px;   /* tags */
+  --radius-xs: 8px;   /* code Copy button, footer logo (reference files) */
+  --radius-logo: 9px; /* navbar logo (spec) */
+  --radius-md: 10px;  /* nav buttons */
+  --radius-lg: 12px;  /* buttons, inputs */
+  --radius-panel: 14px; /* code blocks, tip callout, tables (reference files) */
+  --radius-xl: 16px;  /* cards */
+  --radius-2xl: 20px; /* hero card, cover */
+  --radius-3xl: 24px; /* CTA banner */
+  --radius-pill: 999px;
+
+  /* Layout */
+  --container: 1200px;
+  --gutter: 40px;      /* 16px below 720px */
+  --measure: 700px;    /* article body max width */
+}
+
+@media (max-width: 720px) {
+  :root {
+    --gutter: 16px;
+  }
+}

@@ -1,5 +1,18 @@
 [
   {
+    "id": 5,
+    "slug": "my-journey-with-ai-coding-tools",
+    "title": "My Journey With AI Coding Tools, From ChatGPT to Claude Code",
+    "author": "Bulta",
+    "date": "2026-07-24",
+    "timestamp": "2026-07-24T10:00:00Z",
+    "categories": [
+      "AI"
+    ],
+    "excerpt": "From copy-pasting ChatGPT answers to working with Claude Code in the terminal every day: how AI coding tools changed the way we write code, and where my own journey took a turn.",
+    "glyph": "> claude"
+  },
+  {
     "id": 4,
     "slug": "git-branching-strategies",
     "title": "Git Branching Strategies: Finding Your Team's Perfect Workflow",

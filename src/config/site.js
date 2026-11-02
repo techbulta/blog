@@ -11,8 +11,7 @@ export const site = {
   links: {
     youtube: 'https://www.youtube.com/@techbulta',
     facebook: 'https://www.facebook.com/profile.php?id=100068528005352',
-    // TODO: confirm the LinkedIn profile URL.
-    linkedin: 'https://www.linkedin.com/',
+    linkedin: 'https://www.linkedin.com/in/sandaruvan-wijethilaka-188742b4',
     github: 'https://github.com/techbulta',
     rss: '/rss.xml',
   },

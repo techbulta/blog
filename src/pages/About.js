@@ -147,6 +147,9 @@ function About() {
                   <a href="https://www.youtube.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
                     YouTube
                   </a>
+                  <a href="https://www.linkedin.com/in/sandaruvan-wijethilaka-188742b4" target="_blank" rel="noopener noreferrer" className="social-link">
+                    LinkedIn
+                  </a>
                   <a href="https://www.tiktok.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
                     TikTok
                   </a>

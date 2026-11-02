@@ -60,8 +60,9 @@ function About() {
             </div>
 
             <p>
-              Whether one person reads this or a hundred, my goal remains the same: to create a resource for anyone
-              eager to learn. If you're here to grow your knowledge, welcome—you're in the right place.
+              If something here helped you learn, I'd love to hear what you honestly think. Like and comment on
+              the YouTube videos and LinkedIn posts, and share them with anyone who might find them useful.
+              Feedback is always welcome, positive or negative. It's how this gets better.
             </p>
           </div>
         </section>

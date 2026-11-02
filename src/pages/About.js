@@ -42,22 +42,18 @@ function About() {
             <h3>I cover topics including:</h3>
             <div className="topics-grid">
               <div className="topic-card">
-                <div className="topic-icon">💻</div>
                 <h3>Software Engineering</h3>
                 <p>Java, Spring Boot, Node.js, Angular, Microservices</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">🚀</div>
                 <h3>DevOps</h3>
                 <p>Docker, Kubernetes, CI/CD pipelines</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">🤖</div>
                 <h3>AI</h3>
                 <p>Trending topics and tools</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">📚</div>
                 <h3>Best Practices</h3>
                 <p>General knowledge and industry standards</p>
               </div>
@@ -99,22 +95,18 @@ function About() {
             <h3>මම ලියන topics:</h3>
             <div className="topics-grid">
               <div className="topic-card">
-                <div className="topic-icon">💻</div>
                 <h3>Software Engineering</h3>
                 <p>Java, Spring Boot, Node.js, Angular, Microservices</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">🚀</div>
                 <h3>DevOps</h3>
                 <p>Docker, Kubernetes, CI/CD pipelines</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">🤖</div>
                 <h3>AI</h3>
                 <p>Trending topics සහ tools</p>
               </div>
               <div className="topic-card">
-                <div className="topic-icon">📚</div>
                 <h3>Best Practices</h3>
                 <p>Best practices සහ general knowledge</p>
               </div>
@@ -149,13 +141,13 @@ function About() {
                 <h3>Social Media</h3>
                 <div className="social-links">
                   <a href="https://www.facebook.com/profile.php?id=100068528005352" target="_blank" rel="noopener noreferrer" className="social-link">
-                    <span className="social-icon">📘</span> Facebook
+                    Facebook
                   </a>
                   <a href="https://www.youtube.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
-                    <span className="social-icon">▶️</span> YouTube
+                    YouTube
                   </a>
                   <a href="https://www.tiktok.com/@techbulta" target="_blank" rel="noopener noreferrer" className="social-link">
-                    <span className="social-icon">🎵</span> TikTok
+                    TikTok
                   </a>
                 </div>
               </div>

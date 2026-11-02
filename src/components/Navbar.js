@@ -60,7 +60,6 @@ function Navbar() {
           >
             {searchOpen ? <CloseIcon /> : <SearchIcon />}
           </button>
-          <a href="#subscribe" className="nav-subscribe">Subscribe</a>
           <button
             type="button"
             className="icon-button nav-menu-button"
@@ -77,7 +76,6 @@ function Navbar() {
       {menuOpen && (
         <div id="mobile-menu" className="mobile-menu container">
           {links}
-          <a href="#subscribe" className="nav-link" onClick={() => setMenuOpen(false)}>Subscribe</a>
         </div>
       )}
 

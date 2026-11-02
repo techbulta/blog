@@ -53,7 +53,6 @@ function Footer({ compact = false }) {
             <h2 className="footer-heading">Bulta</h2>
             <Link to="/about">About</Link>
             <Link to="/about#contact">Contact</Link>
-            <a href="#subscribe">Newsletter</a>
           </div>
         </div>
         {legal}

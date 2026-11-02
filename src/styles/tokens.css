@@ -22,7 +22,6 @@
 
   /* Values used in the reference files but not named in the spec */
   --color-on-dark-subtle: #8FA39C; /* terminal prompt, code comments, dashed branch */
-  --color-input-on-dark: #17271F;  /* email input on the newsletter banner */
 
   /* Type */
   --font-display: 'Space Grotesk', system-ui, sans-serif;

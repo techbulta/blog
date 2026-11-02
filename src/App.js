@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import NewsletterBanner from './components/NewsletterBanner';
 import Home from './pages/Home';
 import Article from './pages/Article';
 import About from './pages/About';
@@ -32,7 +31,6 @@ function Layout() {
           <Route path="/article/:id" element={<Article />} />
           <Route path="/about" element={<About />} />
         </Routes>
-        <NewsletterBanner variant={isArticle ? 'article' : 'home'} />
       </main>
       <Footer compact={isArticle} />
     </div>

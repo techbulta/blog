@@ -21,6 +21,4 @@ export const site = {
     { id: '', title: 'Latest video' },
     { id: '', title: 'Popular video' },
   ],
-  // Form endpoint for the newsletter. Set REACT_APP_NEWSLETTER_ENDPOINT in .env.
-  newsletterEndpoint: process.env.REACT_APP_NEWSLETTER_ENDPOINT || '',
 };

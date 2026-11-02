@@ -70,24 +70,6 @@
   color: var(--color-primary);
 }
 
-.nav-subscribe {
-  height: 44px;
-  padding: 0 18px;
-  border-radius: var(--radius-md);
-  background: var(--color-ink);
-  color: var(--color-bg);
-  display: flex;
-  align-items: center;
-  font-size: 15px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.nav-subscribe:hover {
-  background: var(--color-primary);
-  color: var(--color-bg);
-}
-
 .nav-menu-button {
   display: none;
 }
@@ -148,8 +130,7 @@
 }
 
 @media (max-width: 720px) {
-  .nav-links,
-  .nav-actions .nav-subscribe {
+  .nav-links {
     display: none;
   }
 

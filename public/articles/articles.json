@@ -10,6 +10,7 @@
       "AI",
       "DevOps"
     ],
+    "lang": "en",
     "excerpt": "A true story: AI-generated code looped a single-item API thousands of times instead of using the bulk endpoint, and one QA run pushed the cloud bill past $500 in hours. Know what's running under the hood.",
     "glyph": "$500/day"
   },
@@ -24,6 +25,7 @@
       "AI",
       "Guide"
     ],
+    "lang": "en",
     "excerpt": "Real teams have specialists: backend, frontend, PM. Claude Code subagents let you build the same setup, hand tasks to each agent, and run them in parallel. Here's how it works, and what's really happening behind it.",
     "glyph": "@agents"
   },
@@ -38,6 +40,7 @@
       "AI",
       "Guide"
     ],
+    "lang": "en",
     "excerpt": "Two developers, the same requirement, very different results. The difference is planning before executing: write a PRD, break it into tracked tasks, and let Claude Code work from that.",
     "glyph": "PRD.md"
   },
@@ -51,6 +54,7 @@
     "categories": [
       "AI"
     ],
+    "lang": "en",
     "excerpt": "From copy-pasting ChatGPT answers to working with Claude Code in the terminal every day: how AI coding tools changed the way we write code, and where my own journey took a turn.",
     "glyph": "> claude"
   },
@@ -65,6 +69,7 @@
       "Guide",
       "Basic"
     ],
+    "lang": "en",
     "excerpt": "Ever feel like your team's Git setup is just chaos? Learn about five popular branching strategies - Feature Branching, GitHub Flow, GitLab Flow, Git Flow, and Trunk-Based Development - and find the perfect workflow for your team.",
     "glyph": "git branch",
     "coverDiagram": "branches"
@@ -79,6 +84,7 @@
     "categories": [
       "Basic"
     ],
+    "lang": "si",
     "excerpt": "Framework එකක් කියන්නේ මොකද්ද සහ ඒවා පාවිච්චි කරන වාසි මොනවාද කියලා සරල උදාහරණ සමඟ තේරුම් ගමු. Spring Boot, Angular, Django වගේ ප්‍රචලිත frameworks ගැන දැනගන්න.",
     "glyph": "{ fw }"
   },
@@ -92,6 +98,7 @@
     "categories": [
       "Basic"
     ],
+    "lang": "si",
     "excerpt": "Library එකක් කියන්නේ මොකද්ද සහ එය පාවිච්චි කරන්නේ කොහොමද කියලා සරලව තේරුම් ගමු. NumPy, React, Pandas වගේ ප්‍රචලිත libraries ගැන දැනගන්න.",
     "glyph": "import lib"
   },
@@ -105,6 +112,7 @@
     "categories": [
       "Basic"
     ],
+    "lang": "si",
     "excerpt": "IDE (Integrated Development Environment) එකක් කියන්නේ මොකද්ද කියලා සරලව තේරුම් ගමු. Development කරන්න ඕනී සියලුම tools එකතු වෙච්ච software එකක් ගැන විස්තරයක්.",
     "glyph": "</> IDE"
   }

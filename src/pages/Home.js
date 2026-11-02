@@ -6,7 +6,7 @@ import { scrollToHash } from '../utils/scroll';
 import { TOPICS, topicLabel, topicPath } from '../config/topics';
 import { site } from '../config/site';
 import ArticleCard from '../components/ArticleCard';
-import Seo from '../components/Seo';
+import Seo, { websiteStructuredData } from '../components/Seo';
 import BranchGraph from '../components/BranchGraph';
 import { ArrowRightIcon, PlayIcon, YouTubeIcon } from '../components/icons';
 import './Home.css';
@@ -55,7 +55,7 @@ function Home() {
 
   return (
     <div className="home">
-      <Seo />
+      <Seo structuredData={websiteStructuredData} />
       <section className="hero container">
         <div className="hero-copy">
           <div className="eyebrow">Development · DevOps · AI</div>

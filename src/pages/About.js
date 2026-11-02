@@ -22,7 +22,7 @@ function About() {
               Hi, I'm Bulta. I'm currently a Technical Team Lead at one of Sri Lanka's leading software companies.
               My journey in tech began in 2016 without any formal qualifications, but I've always believed in learning
               while doing. Along the way, I completed my HND in IT at SLIATE, and later earned my Bachelor's degree
-              from the University of Moratuwa in 2019, graduating with Second Class Upper Division honors.
+              from the University of Moratuwa in 2019, graduating with Second Class Upper Division.
             </p>
             <p>
               Over the years, I've gained valuable experience in the software industry, and this blog is my way of

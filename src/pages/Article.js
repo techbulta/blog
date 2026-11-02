@@ -10,6 +10,7 @@ import { site } from '../config/site';
 import ArticleCard from '../components/ArticleCard';
 import BranchGraph from '../components/BranchGraph';
 import CodeBlock from '../components/CodeBlock';
+import VideoCard from '../components/VideoCard';
 import Seo from '../components/Seo';
 import { LinkIcon, LinkedInIcon, ShareIcon, CheckIcon, InfoIcon } from '../components/icons';
 import './Article.css';
@@ -175,6 +176,8 @@ function Article() {
           <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
             {content}
           </ReactMarkdown>
+
+          <VideoCard video={article.video} title={article.videoTitle} />
 
           <div className="author-card">
             <span className="avatar avatar--large" aria-hidden="true">{site.author.initial}</span>

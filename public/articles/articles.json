@@ -1,5 +1,19 @@
 [
   {
+    "id": 6,
+    "slug": "why-some-developers-get-better-results-from-claude-code",
+    "title": "Why Some Developers Get Better Results From Claude Code Than Others",
+    "author": "Bulta",
+    "date": "2026-07-29",
+    "timestamp": "2026-07-29T10:00:00Z",
+    "categories": [
+      "AI",
+      "Guide"
+    ],
+    "excerpt": "Two developers, the same requirement, very different results. The difference is planning before executing: write a PRD, break it into tracked tasks, and let Claude Code work from that.",
+    "glyph": "PRD.md"
+  },
+  {
     "id": 5,
     "slug": "my-journey-with-ai-coding-tools",
     "title": "My Journey With AI Coding Tools, From ChatGPT to Claude Code",

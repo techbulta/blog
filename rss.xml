@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bulta</title>
+    <link>https://bulta.lk/</link>
+    <description>Practical guides on development, DevOps and AI.</description>
+    <language>en</language>
+    <atom:link href="https://bulta.lk/rss.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Nov 2026 17:13:26 GMT</lastBuildDate>
+    <item>
+      <title>Don&apos;t Let AI Bankrupt Your Startup Overnight</title>
+      <link>https://bulta.lk/article/8</link>
+      <guid isPermaLink="true">https://bulta.lk/article/8</guid>
+      <pubDate>Wed, 19 Aug 2026 10:00:00 GMT</pubDate>
+      <description>A true story: AI-generated code looped a single-item API thousands of times instead of using the bulk endpoint, and one QA run pushed the cloud bill past $500 in hours. Know what&apos;s running under the hood.</description>
+      <category>AI</category>
+      <category>DevOps</category>
+    </item>
+    <item>
+      <title>Building a Virtual Dev Team With Claude Code Subagents</title>
+      <link>https://bulta.lk/article/7</link>
+      <guid isPermaLink="true">https://bulta.lk/article/7</guid>
+      <pubDate>Wed, 05 Aug 2026 10:00:00 GMT</pubDate>
+      <description>Real teams have specialists: backend, frontend, PM. Claude Code subagents let you build the same setup, hand tasks to each agent, and run them in parallel. Here&apos;s how it works, and what&apos;s really happening behind it.</description>
+      <category>AI</category>
+      <category>Guide</category>
+    </item>
+    <item>
+      <title>Why Some Developers Get Better Results From Claude Code Than Others</title>
+      <link>https://bulta.lk/article/6</link>
+      <guid isPermaLink="true">https://bulta.lk/article/6</guid>
+      <pubDate>Wed, 29 Jul 2026 10:00:00 GMT</pubDate>
+      <description>Two developers, the same requirement, very different results. The difference is planning before executing: write a PRD, break it into tracked tasks, and let Claude Code work from that.</description>
+      <category>AI</category>
+      <category>Guide</category>
+    </item>
+    <item>
+      <title>My Journey With AI Coding Tools, From ChatGPT to Claude Code</title>
+      <link>https://bulta.lk/article/5</link>
+      <guid isPermaLink="true">https://bulta.lk/article/5</guid>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 GMT</pubDate>
+      <description>From copy-pasting ChatGPT answers to working with Claude Code in the terminal every day: how AI coding tools changed the way we write code, and where my own journey took a turn.</description>
+      <category>AI</category>
+    </item>
+    <item>
+      <title>Git Branching Strategies: Finding Your Team&apos;s Perfect Workflow</title>
+      <link>https://bulta.lk/article/4</link>
+      <guid isPermaLink="true">https://bulta.lk/article/4</guid>
+      <pubDate>Sun, 26 Oct 2025 10:00:00 GMT</pubDate>
+      <description>Ever feel like your team&apos;s Git setup is just chaos? Learn about five popular branching strategies - Feature Branching, GitHub Flow, GitLab Flow, Git Flow, and Trunk-Based Development - and find the perfect workflow for your team.</description>
+      <category>Guide</category>
+      <category>Basic</category>
+    </item>
+    <item>
+      <title>Framework එකක් කියන්නේ මොකක්ද?</title>
+      <link>https://bulta.lk/article/3</link>
+      <guid isPermaLink="true">https://bulta.lk/article/3</guid>
+      <pubDate>Tue, 21 Oct 2025 10:00:00 GMT</pubDate>
+      <description>Framework එකක් කියන්නේ මොකද්ද සහ ඒවා පාවිච්චි කරන වාසි මොනවාද කියලා සරල උදාහරණ සමඟ තේරුම් ගමු. Spring Boot, Angular, Django වගේ ප්‍රචලිත frameworks ගැන දැනගන්න.</description>
+      <category>Basic</category>
+    </item>
+    <item>
+      <title>Library එකක් කියන්නේ මොකක්ද?</title>
+      <link>https://bulta.lk/article/2</link>
+      <guid isPermaLink="true">https://bulta.lk/article/2</guid>
+      <pubDate>Mon, 20 Oct 2025 10:00:00 GMT</pubDate>
+      <description>Library එකක් කියන්නේ මොකද්ද සහ එය පාවිච්චි කරන්නේ කොහොමද කියලා සරලව තේරුම් ගමු. NumPy, React, Pandas වගේ ප්‍රචලිත libraries ගැන දැනගන්න.</description>
+      <category>Basic</category>
+    </item>
+    <item>
+      <title>IDE එකක් කියන්නේ මොකක්ද?</title>
+      <link>https://bulta.lk/article/1</link>
+      <guid isPermaLink="true">https://bulta.lk/article/1</guid>
+      <pubDate>Sun, 19 Oct 2025 10:00:00 GMT</pubDate>
+      <description>IDE (Integrated Development Environment) එකක් කියන්නේ මොකද්ද කියලා සරලව තේරුම් ගමු. Development කරන්න ඕනී සියලුම tools එකතු වෙච්ච software එකක් ගැන විස්තරයක්.</description>
+      <category>Basic</category>
+    </item>
+  </channel>
+</rss>

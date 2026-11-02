@@ -4,7 +4,7 @@
 
 ### About Me
 
-Hi, I'm Bulta. I'm currently a Technical Team Lead at one of Sri Lanka's leading software companies. My journey in tech began in 2016 without any formal qualifications, but I've always believed in learning while doing. Along the way, I completed my HND in IT at SLIATE, and later earned my Bachelor's degree from the University of Moratuwa in 2019, graduating with Second Class Upper Division honors.
+Hi, I'm Bulta. I'm currently a Technical Team Lead at one of Sri Lanka's leading software companies. My journey in tech began in 2016 without any formal qualifications, but I've always believed in learning while doing. Along the way, I completed my HND in IT at SLIATE, and later earned my Bachelor's degree from the University of Moratuwa in 2019, graduating with Second Class Upper Division.
 
 Over the years, I've gained valuable experience in the software industry, and this blog is my way of giving back by sharing what I've learned.
 
@@ -18,7 +18,7 @@ I cover topics including:
 - **AI** (trending topics and tools)
 - **Best practices and general knowledge**
 
-Whether one person reads this or a hundred, my goal remains the same: to create a resource for anyone eager to learn. If you're here to grow your knowledge, welcome—you're in the right place.
+If something here helped you learn, I'd love to hear what you honestly think. Like and comment on the YouTube videos and LinkedIn posts, and share them with anyone who might find them useful. Feedback is always welcome, positive or negative. It's how this gets better.
 
 ---
 
@@ -40,4 +40,4 @@ Whether one person reads this or a hundred, my goal remains the same: to create 
 - **AI** (trending topics සහ tools)
 - **Best practices සහ general knowledge**
 
-කවුරු හරි දැනුමක් ගන්න ආවොත් කියවලා යන්න පුළුවන්. එහෙම නැත්තං මේක කෙනෙක් කියවනවද, සියයක් කියවනවද කියලා මං care කරන්නේ නෑ. මේක හැදුවේ දැනුම share කරන්නයි, එච්චරයි.
+මෙතනින් ඔයාට මොකක් හරි අලුත් දෙයක් ඉගෙන ගන්න ලැබුණා නම්, ඔයා ඇත්තටම හිතන දේ මට කියන්න. YouTube videos වලටයි LinkedIn posts වලටයි like එකක්, comment එකක් දාන්න, ප්‍රයෝජනවත් වෙයි කියලා හිතෙන කෙනෙක් එක්ක share කරන්න. හොඳ දේ වුණත් නරක දේ වුණත්, ඕනම feedback එකක් මං සතුටින් බාරගන්නවා. ඒකෙන් තමයි මේක තවත් හොඳ කරගන්න පුළුවන් වෙන්නේ.

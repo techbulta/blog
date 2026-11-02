@@ -2,11 +2,11 @@
 
 ## What is Git?
 
-As we all know, Git is basically a save button for our day-to-day coding projects. But it's not just a save button—we can track all the past changes, and if we did anything wrong, we can go back to some point and correct those mistakes, then move forward. It's like a real-world time machine that can go back and correct our mistakes and decisions. But in the real world, we can't do that. In the software world, we can do that. When we work with a team, this is important. It helps us move forward without messing up each other's development changes.
+As we all know, Git is basically a save button for our day-to-day coding projects. But it's not just a save button. We can track all the past changes, and if we did anything wrong, we can go back to some point and correct those mistakes, then move forward. It's like a real-world time machine that can go back and correct our mistakes and decisions. But in the real world, we can't do that. In the software world, we can do that. When we work with a team, this is important. It helps us move forward without messing up each other's development changes.
 
 You know how we used to save files like `Document_Final.doc`, then `Document_Final_v2.doc`, then `Document_Final_ACTUAL_THIS_TIME.doc`? Yeah, Git fixes that mess. It keeps track of everything for us, and when multiple people are working on the same project, it helps combine everyone's work.
 
-The cool part? **Branches**. Think of them like making a copy of our project to try something new. If our experiment works, great—bring it back into the main project. If it doesn't work? Just trash that copy. Nobody needs to know.
+The cool part? **Branches**. Think of them like making a copy of our project to try something new. If our experiment works, great, bring it back into the main project. If it doesn't work? Just trash that copy. Nobody needs to know.
 
 Here's the thing though: *how* we use branches really matters. Some teams let everyone work however they want. Others have strict rules about when and how to create branches. Should we test stuff before merging? How do we handle shipping updates? That's what branching strategies are all about.
 
@@ -128,7 +128,7 @@ Here's how it goes: everyday work happens on `develop`. Features branch off from
 - Steeper learning curve for new team members
 - More merge work than simpler strategies
 
-**Real example:** Imagine we're working on the school management software with version releases. The team is developing new features like a timetable scheduler in `develop` through various `feature/*` branches. Meanwhile, version 2.1 is in a `release/2.1` branch where Charith is doing final bug fixes. Suddenly, schools report a critical issue with student report card generation in the current version 2.0—Sandun creates `hotfix/report-card-fix`, patches it, merges to both `main` AND `develop`, and ships it fast. All while Shanika and Maduka keep working on the new features!
+**Real example:** Imagine we're working on the school management software with version releases. The team is developing new features like a timetable scheduler in `develop` through various `feature/*` branches. Meanwhile, version 2.1 is in a `release/2.1` branch where Charith is doing final bug fixes. Suddenly, schools report a critical issue with student report card generation in the current version 2.0, so Sandun creates `hotfix/report-card-fix`, patches it, merges to both `main` AND `develop`, and ships it fast. All while Shanika and Maduka keep working on the new features!
 
 **How hard is it?** ⭐⭐⭐⭐ (the most complex, but worth it for the right teams)
 
